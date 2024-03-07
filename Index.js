@@ -38,7 +38,7 @@ if (error) {
     console.error(error);
 } else {
     console.log(results);
-    document.getElementById("resultObjectName").innerHTML = results[0].label;
-    document.getElementById("ResultObjectAccuracy").innerHTML = results[0].confidence.toFixed(3);
+    document.getElementById("resultObjetoName").innerHTML = results[0].label;
+    document.getElementById("resultObjetoAccuracy").innerHTML = results[0].confidence.toFixed(3);
 }
 }
